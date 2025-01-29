@@ -12,8 +12,8 @@ def calculadora (op, n1, n2):
     return resposta
         
 op = int(input("Escolha qual operação quer efetuar: (1)Soma (2)Subtração (3)Multiplicação (4)Divisão "))
-n1 = int(input("Digite o primeiro número para a operação escolhida: "))
-n2 = int(input("Digite o segundo número: "))
+n1 = float(input("Digite o primeiro número para a operação escolhida: "))
+n2 = float(input("Digite o segundo número: "))
         
 resultado = calculadora(op, n1, n2)
 
